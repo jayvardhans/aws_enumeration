@@ -5,19 +5,19 @@ Automatically enumerate AWS resources, IAM users, groups, roles, policies, and p
 
 The script uses `jq` to automatically extract AWS JSON fields.
 
-sudo apt install jq
+`sudo apt install jq`
 
 Before run the script, configure profile in the AWS CLI using below command.
 
-aws configure --profile <Profile_Name>
+`aws configure --profile <Profile_Name>`
 
 ### IAM Enumeration Usage
 ========================================
 
-chmod +x aws_enum.sh
+`chmod +x aws_enum.sh`
 
 Then
 
-./aws_enum.sh <Profile_Name>
+`./aws_enum.sh <Profile_Name>`
 
-Example: ./aws_enum.sh ctf
+Example: `./aws_enum.sh ctf`
