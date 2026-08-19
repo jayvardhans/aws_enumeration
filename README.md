@@ -14,13 +14,13 @@ Before run the script, configure profile in the AWS CLI using below command.
 ### IAM Enumeration Usage
 ========================================
 
-`chmod +x aws_enum.sh`
+`chmod +x aws-enum.sh`
 
 Then
 
-`./aws_enum.sh <Profile_Name>`
+`./aws-enum.sh <Profile_Name>`
 
-Example: `./aws_enum.sh ctf`
+Example: `./aws-enum.sh ctf`
 
 ### Check S3 Bucket
 ==========================================
